@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+
+    <!-- favicon -->
+    <!-- g-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- g-fonts -->
+    <!-- font-awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font-awesome cdn -->
+    <title>
+      Zerodha - Online stock trading at lowest prices from India's biggest stock
+      broker
+    </title>
+    <style>
+      * {
+        margin: 0px;
+        font-family: 'Inter', sans-serif;
+      }
+      /* navbar */
+      nav {
+        /* border: 1px solid beige; */
+        box-shadow: 2px 1px 2px #eee;
+        position: fixed;
+        background-color: white;
+      }
+      nav > ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+      }
+      .logo-container {
+        width: 50%;
+        /* border: 2px solid black; */
+        margin-left: 10%;
+      }
+      nav img.logo-img {
+        width: 130px;
+      }
+      .nav-element-holder {
+        width: 50%;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        margin-right: 10%;
+      }
+      nav li {
+        padding: 20px;
+        font-size: 0.9rem;
+      }
+      nav a {
+        text-decoration: none;
+        color: rgb(102, 102, 102);
+        font-weight: 400;
+      }
+      /* navbar */
+
+      /* main */
+      main{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .main-img-container{
+        width: 55%;
+        margin-top: 120px;
+        margin-bottom: 60px;
+      }
+      .main-img{
+        width: 100%;
+      }
+      h1{
+        font-size: 44px;
+        font-weight: 500;
+        color: rgb(66, 66, 66);
+      }
+      h3{
+        font-size: 20px;
+        font-weight: 400;
+        color: rgb(66, 66, 66);
+        margin: 10px 0px 20px 0px;
+      }
+      .common-btn{
+        background-color: rgb(56, 126, 209);
+        color: white;
+        border: none;
+        font-size: 1.2rem;
+        padding: 10px 30px;
+        border-radius: 3px;
+      }
+      main>button.main-btn{
+        margin-top: 25px;
+      }
+      /* main */
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <div class="logo-container">
+          <li class="logo">
+            <a href="#"
+              ><img
+                class="logo-img"
+                src="https://zerodha.com/static/images/logo.svg"
+                alt="Zerodha-logo"
+            /></a>
+          </li>
+        </div>
+        <div class="nav-element-holder">
+          <li><a href="#">Signup</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+        </div>
+      </ul>
+    </nav>
+    <main>
+        <div class="main-img-container">
+            <img src="https://zerodha.com/static/images/landing.png" alt="" class="main-img">
+        </div>
+        <h1>Invest in everything</h1>
+        <h3>Online platform to invest in stocks, derivatives, mutual funds, and more</h3>
+        <button class="main-btn common-btn">
+            Sign up now
+        </button>
+    </main>
+  </body>
+</html>
